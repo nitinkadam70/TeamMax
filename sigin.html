@@ -1,15 +1,14 @@
-<!-- home page -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4f2af7deb6.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <link rel="stylesheet" href="./CSS/index.css">
+<link rel="stylesheet" href="./CSS/sigin.css">
 
 <body>
     <div id="navbar">
@@ -48,17 +47,29 @@
                 <div> <i class="fa-solid fa-magnifying-glass"></i></div>
                 <div><input type="search" id="S" onkeyup="search()" placeholder="What are you looking for?"></div> 
             </div>
-           
-           
-            
         </div>
         <div id = "links2">
-            <a href="signup.html">Sign Up - Sign In</a>
+            <a href="sigin.html" target="_self">Sign Up - Sign In</a>
             <div></div>
             <a href=""> Basket</a>
         </div>
     </div>
+    <br>
+    <br>
+    <div id="box"">
+        <div>Sign in or Sign up</div>
+        <div>Enjoy the convenience of single account across all participation brands</div>
+        <form action="" id="form">
+            <p>User name</p>
+            <input type="email" id="username" placeholder="Enter your email here">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="Password at least 6 characters">
+            <div id="tc">Create your account <a href="signup.html">Sign up</a></div>
+            <hr>
+            <input type="submit" value="CONTINUE" id="submit">
+        </form>
+    </div>
+    
 </body>
-<script src="./JS/index.js"></script>
-
+<script src="./JS/sigin.js"></script>
 </html>
