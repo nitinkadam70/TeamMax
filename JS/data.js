@@ -4,7 +4,8 @@ var boysData = [
 
     {image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688411-Green-GREEN-1000010688411-5012022_01-2100.jpg",
       name: "MAX Printed Crew Neck T-shirt",
-      price: 249
+      price: 249,
+      qty:1
 
     } ,
    
@@ -12,68 +13,94 @@ var boysData = [
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010416070-Yellow-YELLOW-1000010416070-8122021_01-2100.jpg",
       name: "MAX Printed Crew Neck T-shirt",
-      price:249
+      price:249,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688466-Blue-NAVY-1000010688466-15122021_01-2100.jpg",
       name: "MAX Printed Drawstring Waist Joggers",
-      price:699
+      price:699,
+      qty:1
+
     },
 
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010416048-Red-Maroon-1000010416048-10282021_01-2100.jpg",
       name: "MAX Typographic Print Crew Neck T-shirt",
-      price:229
+      price:229,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010415993-Yellow-Yellow-1000010415993-11112021_01-2100.jpg",
       name: "MAX Printed Crew Neck T-shirt",
-      price:249
+      price:249,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010416037-Green-Oliveg-1000010416037-10282021_01-2100.jpg",
       name: "MAX Printed Crew Neck T-shirt",
-      price:229
+      price:229,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688356-Black-BLACK-1000010688356-12012022_01-2100.jpg",
       name: "MAX Printed Round Neck T-shirt",
-      price:199
+      price:199,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688477-Blue-NAVY-1000010688477-5012022_01-2100.jpg",
       name: "MAX Printed Shorts",
-      price:499
+      price:499,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010233347-Blue-Aqua-1000010233347-10132021_01-2100.jpg",
       name: "MAX Typographic Print Crew Neck T-shirt",
-      price:199
+      price:199,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688741-Grey-GREY-1000010688741-22122021_01-2100.jpg",
       name: "MAX Solid Elasticated Shorts",
-      price:399
+      price:399,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010415586-Green-Green-1000010415586-9292021_01-2100.jpg",
       name: "MAX Graphic Print Crew Neck T-shirt",
-      price:299
+      price:299,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688159-Yellow-YELLOW-1000010688159-29122021_01-2100.jpg",
       name: "MAX Printed Round Neck T-shirt",
-      price:249
+      price:249,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688367-Red-RED-1000010688367-12012022_01-2100.jpg",
       name: "MAX Printed Crew Neck T-shirt",
-      price:199
+      price:199,
+      qty:1
+
     },
     {
       image_url:"https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010688181-Blue-BLUE-1000010688181-15122021_01-2100.jpg",
       name: "MAX Printed Crew Neck T-shirt",
-      price:329
+      price:329,
+      qty:1
+
     },
 
 
@@ -83,6 +110,9 @@ var boysData = [
       name: "MEN'S REEBOK RUNNING ROADMAP SHOES",
       price: 1170,
       strikedoffprice: "2599",
+      
+      qty:1
+
     },
     {
       image_url:
@@ -90,6 +120,8 @@ var boysData = [
       name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
       price: 699,
       strikedoffprice: 999,
+      qty:1
+
     },
     {
       image_url:
@@ -97,6 +129,8 @@ var boysData = [
       name: " MEN'S REEBOK RUNNING AUSTIN SHOES",
       price: 945,
       strikedoffprice: 2099,
+      qty:1
+
     },
     {
       image_url:
@@ -104,6 +138,8 @@ var boysData = [
       name: "MEN'S REEBOK SWIM AVENGER FLIP LP SLIPPERS",
       price: 399,
       strikedoffprice: 799,
+      qty:1
+
     },
     {
       image_url:
@@ -111,6 +147,8 @@ var boysData = [
       name: "MEN'S REEBOK RUNNING TEMPO SHOES ",
       price: 1620,
       strikedoffprice: 3599,
+      qty:1
+
     },
     {
       image_url:
@@ -118,6 +156,8 @@ var boysData = [
       name: " MEN'S REEBOK RUNNING ASTRO BOOSTER SHOES ",
       price: 1440,
       strikedoffprice: 3199,
+      qty:1
+
     },
     {
       image_url:
@@ -125,6 +165,8 @@ var boysData = [
       name: " MEN'S TRAINING WORKOUT READY ELITAGE PANTS ",
       price: 1999,
       strikedoffprice: 3199,
+      qty:1
+
     },
     {
       image_url:
@@ -132,6 +174,8 @@ var boysData = [
       name: "MEN'S REEBOK TRAINING  POLO T-SHIRTS TEE  ",
       price: 769,
       strikedoffprice: 1099,
+      qty:1
+
     },
     {
       image_url:
@@ -139,6 +183,8 @@ var boysData = [
       name: "MEN'S REEBOK TRAINING WORKOUT  TEE  ",
       price: 1299,
       strikedoffprice: 1440,
+      qty:1
+
     },
     {
       image_url:
@@ -146,6 +192,8 @@ var boysData = [
       name: "MEN'S REEBOK SUPER SOFT FLIP SLIPPERS",
       price: 699,
       strikedoffprice: 999,
+      qty:1
+
     },
     {
       image_url:
@@ -153,6 +201,8 @@ var boysData = [
       name: "MEN'S REEBOK RUNNING RUN SHOES  ",
       price: 1620,
       strikedoffprice: 3599,
+      qty:1
+
     },
     {
       image_url:
@@ -160,6 +210,8 @@ var boysData = [
       name: "MEN'S REEBOK RUNNING GENESIS RUNNER SHOES  ",
       price: 1620,
       strikedoffprice: 3599,
+      qty:1
+
     },
     {
       image_url:
@@ -167,6 +219,8 @@ var boysData = [
       name: "MEN'S REEBOK SWIM RUSSLE FLIP SLIPPERS  ",
       price: 599,
       strikedoffprice: 999,
+      qty:1
+
     },
     {
       image_url:
@@ -174,6 +228,8 @@ var boysData = [
       name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
       price: 1575,
       strikedoffprice: 3499,
+      qty:1
+
     },
     {
       image_url:
@@ -181,6 +237,8 @@ var boysData = [
       name: "UNISEX REEBOK RUNNING ZIG KINETICA II SHOES  ",
       price: 9999,
       strikedoffprice: 12000,
+      qty:1
+
     },
     {
       image_url:
@@ -188,6 +246,8 @@ var boysData = [
       name: " MEN'S REEBOK TRAINING BAS POLO TEE ",
       price: 779,
       strikedoffprice: 1299,
+      qty:1
+
     },
     {
       image_url:
@@ -195,6 +255,8 @@ var boysData = [
       name: "MEN'S REEBOK TRAINING FOUNDATION  PANTS  ",
       price: 1019,
       strikedoffprice: 1699,
+      qty:1
+
     },
     {
       image_url:
@@ -202,6 +264,8 @@ var boysData = [
       name: "MEN'S REEBOK TRAINING FOUNDATION PANTS  ",
       price: 1019,
       strikedoffprice: 1699,
+      qty:1
+
     },
     {
       image_url:
@@ -209,6 +273,8 @@ var boysData = [
       name: " MEN'S REEBOK RUNNING TREND SHOES",
       price: 1575,
       strikedoffprice: 3499,
+      qty:1
+
     },
     {
       image_url:
@@ -216,6 +282,8 @@ var boysData = [
       name: "  MEN'S REEBOK RUNNING ZTAUR RUN SHOES ",
       price: 3499,
       strikedoffprice: 4999,
+      qty:1
+
     },
     {
       image_url:
@@ -223,6 +291,8 @@ var boysData = [
       name: "MEN'S REEBOK SWIM ULTRA FLIP SLIPPERS   ",
       price: 749,
       strikedoffprice: 1499,
+      qty:1
+
     },
     {
       image_url:
@@ -230,6 +300,8 @@ var boysData = [
       name: "  MEN'S REEBOK SWIM FLEX CONNECT SANDALS ",
       price: 1149,
       strikedoffprice: 2299,
+      qty:1
+
     },
     {
       image_url:
@@ -237,6 +309,8 @@ var boysData = [
       name: " MEN'S REEBOK RUNNING GENESIS RUNNER SHOE  ",
       price: 1620,
       strikedoffprice: 3599,
+      qty:1
+
     },
     {
       image_url:
@@ -244,6 +318,8 @@ var boysData = [
       name: " MEN'S REEBOK TRAINING RUNNER SHORTS  ",
       price: 779,
       strikedoffprice: 1299,
+      qty:1
+
     },
     {
       image_url:
@@ -251,6 +327,8 @@ var boysData = [
       name: " MEN REEBOK CLASSICS TRACKSUIT HOODIE  ",
       price: 3499,
       strikedoffprice: 4999,
+      qty:1
+
     },
     {
       image_url:
@@ -258,6 +336,8 @@ var boysData = [
       name: "MEN'S REEBOK CLASSIC TRACKSUIT GOLF HOODIE   ",
       price: 3499,
       strikedoffprice: 4999,
+      qty:1
+
     },
     {
       image_url:
@@ -265,6 +345,8 @@ var boysData = [
       name: " UNISEX REEBOK TRAINING ACTIVE  BAG ",
       price: 1399,
       strikedoffprice: 2799,
+      qty:1
+
     },
     {
       image_url:
@@ -272,6 +354,8 @@ var boysData = [
       name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
       price: 1575,
       strikedoffprice: 3499,
+      qty:1
+
     },
     {
       image_url:
@@ -279,6 +363,8 @@ var boysData = [
       name: "UNISEX REEBOK CLASSICS  BASKETBALL SHOES",
       price: 3919,
       strikedoffprice: 5599,
+      qty:1
+
     },
     {
       image_url:
@@ -286,6 +372,8 @@ var boysData = [
       name: "MEN'S REEBOK RUNNING RUN FUSION  SHOES",
       price: 1620,
       strikedoffprice: 3599,
+      qty:1
+
     },
     {
       image_url:
@@ -293,6 +381,8 @@ var boysData = [
       name: "MEN'S REEBOK RUNNING QUICK DRIFTER SHOES",
       price: 1620,
       strikedoffprice: 3599,
+      qty:1
+
     },
     {
       image_url:
@@ -300,6 +390,8 @@ var boysData = [
       name: "MEN'S REEBOK DYNAMIC ZIGZAG SHOES",
       price: 7599,
       strikedoffprice: 9999,
+      qty:1
+
     },
     {
       image_url:
@@ -307,6 +399,8 @@ var boysData = [
       name: "MEN'S REEBOK SWIM SUPERSOFT FLIP SLIPPERS",
       price: 909,
       strikedoffprice: 1299,
+      qty:1
+
     },
     {
       image_url:
@@ -314,6 +408,8 @@ var boysData = [
       name: "MEN'S REEBOK TRAINING ACTIVE BASIC POLO TEE",
       price: 779,
       strikedoffprice: 1299,
+      qty:1
+
     },
     {
       image_url:
@@ -321,6 +417,8 @@ var boysData = [
       name: "MEN'S REEBOK TRAINING ACTIVE MOVE TEE ",
       price: 1749,
       strikedoffprice: 2499,
+      qty:1
+
     },
     {
       image_url:
@@ -328,6 +426,8 @@ var boysData = [
       name: "MEN'S REEBOK FITNESS TRAINING  SWEATSHIRT",
       price: 1079,
       strikedoffprice: 1799,
+      qty:1
+
     },
   ];
   

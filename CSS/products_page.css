@@ -23,6 +23,7 @@
 #product_box > div:hover{
     display:inline;
     -ms-transform-origin-x: 10%;
+   
 }
 
 #product_box > div img{
