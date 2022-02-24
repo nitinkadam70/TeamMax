@@ -21,7 +21,8 @@
     display: none;
 }
 #product_box > div:hover{
-    width: 25vw;
+    display:inline;
+    -ms-transform-origin-x: 10%;
 }
 
 #product_box > div img{
