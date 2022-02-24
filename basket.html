@@ -1,17 +1,14 @@
-<!-- home page -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/4f2af7deb6.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="./CSS/basket.css">
 <link rel="stylesheet" href="./CSS/index.css">
 <link rel="stylesheet" href="./CSS/footer.css">
-
 <body>
     <div id="navbar">
         <div>
@@ -49,18 +46,58 @@
                 <div> <i class="fa-solid fa-magnifying-glass"></i></div>
                 <div><input type="search" id="S" onkeyup="search()" placeholder="What are you looking for?"></div> 
             </div>
-            
+
+            <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
         </div>
         <div id = "links2">
-            <a id="change" href="signup.html">Sign Up - Sign In</a>
+            <a href="signup.html">Sign Up - Sign In</a>
             <div></div>
             <a href="basket.html"> Basket</a>
             <i id="basket" class="fa-solid fa-bag-shopping"></i>
         </div>
     </div>
-    <br><br>
-    <!-- -----footer------------------------------------------------------------------------------------------- -->
+
     
+    <div id ="order">
+        <div>
+            <div id="subtotal">
+                <p>Standart Ground Shipping:</p>
+                <p>Free</p>
+                <hr>
+                <h2>TOTAL</h2>
+                <h2>₹ 0</h2>
+            </div>
+            <button>Proceed to Checkout</button>
+            <div id="promo">
+                <img src="https://i1.lmsin.net/website_images/common/images/basket/ico-gift.png" alt="">
+                Got a Promo/Voucher Code?</div>
+            <div id="p2">
+                <input type="text" placeholder="Enter Promo Code">
+                <button>Apply</button>
+                <button>Cancle</button>
+            </div> 
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="cart">
+        <div id="offer">
+            <p>Get the offer</p>
+            <p>• Flat 200 Off on 1999 & above, code- MAX200</p>
+            <p>• Flat 100 Off on 999 & above orders, code- NEW100 (First purchase only)</p>
+            <br>
+            <hr>
+            <br>
+        </div>
+        <img src="https://i1.lmsin.net/website_images/in/logos/logo-max.svg" alt="">
+        <br>
+        <br>
+        <hr>
+        <div id="items">
+
+        </div>
+    </div>
 </body>
+<script src="./JS/basket.js"></script>
 <script src="./JS/index.js"></script>
 </html>
