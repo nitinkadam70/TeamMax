@@ -1,5 +1,5 @@
-var cart = JSON.parse(localStorage.getItem("Cart"));
-//console.log(cart);
+var cart = JSON.parse(localStorage.getItem("basket"));
+console.log(cart);
 
 displayData(cart);
 
@@ -21,13 +21,10 @@ function displayData(cart){
         var price = document.createElement("p");
         price.innerText = elem.price;
 
-        var strikedoffprice = document.createElement("p");
-        strikedoffprice.innerText = elem.strikedoffprice;
-
         var qty = document.createElement("p");
         qty.innerText="Qty-" + elem.qty;
      
-        
+
 
         var btn = document.createElement("button");
         btn.innerHTML="Remove";
@@ -46,12 +43,10 @@ function displayData(cart){
         btn2.addEventListener("click", function(){
             increaseQty(index);
         })
-
-
-        innerdiv.append(price,strikedoffprice,btn,btn2);
-        div.append(qty,img,name,innerdiv);
+  
+        innerdiv.append(price,qty,btn,btn2);
+        div.append(img,name,innerdiv);
         document.querySelector("#container").append(div);
-
     })
 
 }
@@ -70,7 +65,7 @@ function increaseQty(index){
     console.log(index)
     cart[index].qty++;
     console.log(cart)
-    localStorage.setItem("cartItem",JSON.stringify(cart));
+    localStorage.setItem("basket",JSON.stringify(cart));
     displayData(cart);
     showTotal();
 }
@@ -80,13 +75,13 @@ function decreaseQty(elem,index){
     if(elem.qty>0){ cart[index].qty--;}
     if(elem.qty==0){var x =JSON.parse(localStorage.removeItem(cart)); x.splice(elem)}
     console.log(cart)
-    localStorage.setItem("cartItem",JSON.stringify(cart));
+    localStorage.setItem("basket",JSON.stringify(cart));
     displayData(cart);
     showTotal();
 }
 
-var totalItems = document.getElementById("totalItems");
-totalItems.innerText="Total Items👉" + cart.length;
+// var totalItems = document.getElementById("totalItems");
+// totalItems.innerText="Total Items👉" + cart.length;
 
 
 

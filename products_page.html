@@ -4,12 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4f2af7deb6.js" crossorigin="anonymous"></script>
     <title>poducts page</title>
-    <link rel="stylesheet" href="products_page.css">
-    <link rel="stylesheet" href="boys.css">
+    <link rel="stylesheet" href="./CSS/products_page.css">
+    <link rel="stylesheet" href="./CSS/boys.css">
+    <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
-
+    <div id="navbar">
+        <div>
+            <div>
+                <i class="fa-solid fa-truck"></i>
+                Free Shipping
+            </div>
+            <div>
+                <i class="fa-solid fa-store"></i>
+                Return To Store
+            </div>
+            <div>
+                <i class="fa-solid fa-store"></i>
+                Click & Collect
+            </div>
+        </div>
+        <div id="links">
+            <a href="">Download Our Apps</a>
+            <div></div>
+            <a href="">Store Locator</a>
+            <div></div>
+            <a href="">Help</a>
+        </div>
+    </div>
+    <br>
+    <div id="Navbar2">
+        <div>
+            <img src="https://i1.lmsin.net/website_images/in/logos/logo-max.svg"
+                alt="logo">
+            <a href="index.html">Women</a>
+            <a href="">Men</a>
+            <a href="girls.html">Girls</a>
+            <a href="">Boys</a>
+            <div id="search">
+                <div> <i class="fa-solid fa-magnifying-glass"></i></div>
+                <div><input id="S" onkeyup="search()" placeholder="What are you looking for?"/></div> 
+            </div>
+    
+        </div>
+        <div id = "links2">
+            <a id="change" href="signup.html">Sign Up - Sign In</a>
+            <div></div>
+            <a href="basket.html"> Basket</a>
+            <i id="basket" class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </div>
+    <br><br>
+   
+    <div id="innernavbar">
+        <select onclick="sortItems()" id="sorter">
+            <option value="">Sort By</option>
+            <option value="h2l">High To Low</option>
+            <option value="l2h">Low To High</option>
+        </select>
+        <br>
+        <br>
+        <select onchange="filterItems()" id="filter">
+            <option value="">Filter By</option>
+            <option value="5000">>5000</option>
+            <option value="3000">>3000</option>
+            <option value="1000">>1000</option>
+        </select>
+        <button onclick="clearFilters()">Reset</button>
+    </div>
+    <h1 id="searchItems">0</h1>
+    <br><br>
+    <br>
      <div id="main_box">
 
      
@@ -237,6 +304,7 @@
 
      </div>
 </body>
+<script src="./JS/data.js"></script>
+<script src="./JS/products_page.js"></script>
+<script src="./JS/index.js"></script>
 </html>
-<script src="data.js"></script>
-<script src="products_page.js"></script>

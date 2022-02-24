@@ -27,4 +27,11 @@
 #product_box > div img{
     width: 100%;
 }
+#innernavbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 20px;
+    margin-top: 4%;
+}
 
