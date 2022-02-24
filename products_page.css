@@ -20,6 +20,9 @@
 
     display: none;
 }
+#product_box > div:hover{
+    width: 25vw;
+}
 
 #product_box > div img{
     width: 100%;
