@@ -86,6 +86,15 @@ cross_img.addEventListener("click",function(){
     login_box.style.display = "none"
     
 })
+// parent_box.addEventListener("mouseover",function(){
+   
+   
+//     parent_box.style.display = "none";
+//     signup_box.style.display = "none";
+//     login_box.style.display = "none"
+    
+// })
+
 
 
 
