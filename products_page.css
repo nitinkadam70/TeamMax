@@ -21,7 +21,13 @@
     display: none;
 }
 #product_box > div:hover{
+<<<<<<< Updated upstream:products_page.css
     width: 25vw;
+=======
+    display:inline;
+    -ms-transform-origin-x: 100%;
+   
+>>>>>>> Stashed changes:CSS/products_page.css
 }
 
 #product_box > div img{
