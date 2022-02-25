@@ -7,10 +7,13 @@
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   display: none;
   box-shadow: inset;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+ 
   
   
  
 }
+
 #cross_img{
  margin-top: 10px;
  margin-left: 90%;
