@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./CSS/products_page.css">
     <link rel="stylesheet" href="./CSS/boys.css">
     <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./css/sigin.css">
 </head>
 <body>
     <div id="navbar">
@@ -50,8 +51,9 @@
     
         </div>
         <div id = "links2">
-            <a id="change" href="signup.html">Sign Up - Sign In</a>
-            <div></div>
+            <a id="sign_up" >Sign Up</a>
+            <a id="sign_in" >Sign In</a>   
+             <div></div>
             <a href="basket.html"> Basket</a>
             <i id="basket" class="fa-solid fa-bag-shopping"></i>
         </div>
@@ -78,8 +80,53 @@
     <br><br>
     <br>
      <div id="main_box">
+        <div class="parent_box">
+                       
+            <div id="cross_img"><img src="https://cdn-icons.flaticon.com/png/512/2976/premium/2976286.png?token=exp=1645769873~hmac=ebb5be48ccf8ce9f363e45d04813c18f" alt=""></div>
+          
+              <div id="signup_box" class="box">
+                  <h1>Create Account</h1>
+                  <p>Enjoy the convenience of single account across all participation brands</p>  
+                  <form action="" id="form_1">
+                      <p>Your name</p>
+                      <input type="text" id="name_1" placeholder="Enter your good name">
+                      <p>Email</p>
+                      <input type="" id="email_1" placeholder="Your Email">
+                      <p>Password</p>
+                      <input type="password" id="password_1" placeholder="Password at least 6 characters">
+                      <div id="tc">Already have an account? <a href="sigin.html">Sign in</a></div>
+                      <hr>
+                      <input type="submit" value="CONTINUE" id="submit_1" class="submit">
+                  </form>
+                  </div>
 
-     
+                  <div id="login_box" class="box">
+                      <h1>Sign In</h1>
+                      <p>Enjoy the convenience of single account across all participation brands</p>  
+                      <form action="" id="form_2">
+                          <p>User name</p>
+                          <input type="email" id="email_2" placeholder="Enter your email here">
+                          <p>Password</p>
+                          <input type="password" id="password_2" placeholder="Password at least 6 characters">
+                          <div id="tc">Create your account <a href="signup.html">Sign up</a></div>
+                          <hr>
+                          <input type="submit" value="CONTINUE" id="submit_2" class="submit">
+                      </form>
+                  </div>
+
+
+          
+
+
+
+
+
+      </div>
+
+
+
+
+        <h1 id="searchItems">0</h1>
        <h1>welcome there</h1>
        <div id="product_box">
 
@@ -307,4 +354,5 @@
 <script src="./JS/data.js"></script>
 <script src="./JS/products_page.js"></script>
 <script src="./JS/index.js"></script>
+<script src="./js/signup_login.js"></script>
 </html>

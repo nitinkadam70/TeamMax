@@ -1,6 +1,12 @@
 let boysData_arr = JSON.parse(localStorage.getItem("boysData"))||[];
 let basket_data = JSON.parse(localStorage.getItem("basket"))||[];
+  
 
+show_data(basket_data);
+
+     function show_data(items){
+
+     
 
 console.log(boysData_arr)
 boysData_arr.map(function(elem,index){
@@ -36,5 +42,8 @@ boysData_arr.map(function(elem,index){
     main_div.append(img,price,name,add_to_cart_btn);
     document.querySelector("#product_box").append(main_div);
 })
+
+     }
+
    console.log(basket_data);
 

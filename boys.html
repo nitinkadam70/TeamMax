@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="./CSS/boys.css">
 <link rel="stylesheet" href="./CSS/index.css">
 <link rel="stylesheet" href="./css/pocket_cart_box.css">
+<link rel="stylesheet" href="./css/sigin.css">
 <body>
     <div id="navbar">
         <div>
@@ -50,7 +51,8 @@
             
         </div>
         <div id = "links2">
-            <a id="change" href="signup.html">Sign Up - Sign In</a>
+            <a id="sign_up" >Sign Up</a>
+            <a id="sign_in" >Sign In</a>
             <div></div>
             <div></div>
             <a href="" id="pocket_basket"> Basket</a>
@@ -59,6 +61,50 @@
     </div>
     <br><br>
     <br>
+
+    <div id="main_box">
+            <div class="parent_box">
+                       
+                  <div id="cross_img"><img src="https://cdn-icons.flaticon.com/png/512/2976/premium/2976286.png?token=exp=1645769873~hmac=ebb5be48ccf8ce9f363e45d04813c18f" alt=""></div>
+                
+                    <div id="signup_box" class="box">
+                        <h1>Create Account</h1>
+                        <p>Enjoy the convenience of single account across all participation brands</p>  
+                        <form action="" id="form_1">
+                            <p>Your name</p>
+                            <input type="text" id="name_1" placeholder="Enter your good name">
+                            <p>Email</p>
+                            <input type="" id="email_1" placeholder="Your Email">
+                            <p>Password</p>
+                            <input type="password" id="password_1" placeholder="Password at least 6 characters">
+                            <div id="tc">Already have an account? <a href="sigin.html">Sign in</a></div>
+                            <hr>
+                            <input type="submit" value="CONTINUE" id="submit_1" class="submit">
+                        </form>
+                        </div>
+
+                        <div id="login_box" class="box">
+                            <h1>Sign In</h1>
+                            <p>Enjoy the convenience of single account across all participation brands</p>  
+                            <form action="" id="form_2">
+                                <p>User name</p>
+                                <input type="email" id="email_2" placeholder="Enter your email here">
+                                <p>Password</p>
+                                <input type="password" id="password_2" placeholder="Password at least 6 characters">
+                                <div id="tc">Create your account <a href="signup.html">Sign up</a></div>
+                                <hr>
+                                <input type="submit" value="CONTINUE" id="submit_2" class="submit">
+                            </form>
+                        </div>
+
+
+                
+
+
+
+
+
+            </div>
            <div class="parent">
                <div id="pocket_cart_box">cart</div>
 
@@ -67,7 +113,7 @@
                  <h3>Kid's Party is live Pick 3 & just
                  pay for 2+ Free shipping on orders above just 499 > </h3>
          </div>
-         <div id="main_box">
+        
 
         <div id="slider">
          <div onclick="prev()"><img class="greater_logo" src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt=""></div>
@@ -392,4 +438,5 @@
 <script src="./JS/boys.js"></script>
 <script src="./JS/index.js"></script>
 <script src="./js/pocket_cart_box.js"></script>
+<script src="./js/signup_login.js"></script>
 </html>
