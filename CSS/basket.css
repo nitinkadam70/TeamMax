@@ -89,9 +89,12 @@
 #offer>p{
     font-size: 12px;
 }
-#offer+img{
-    width: 100px;
+#max{
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
 }
+
 #container{
     width: 100%;
     height: 320px;
@@ -162,9 +165,13 @@ img{
     }
     
 }
+#T{
+    display: flex;
+}
 
-
-
+#subtotal>h2+h2+h2{
+    color:#010301;
+}
 
 
 

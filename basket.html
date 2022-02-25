@@ -64,7 +64,7 @@
 
     <div class="parent_box">
                        
-        <div id="cross_img"><img src="https://cdn-icons.flaticon.com/png/512/2976/premium/2976286.png?token=exp=1645769873~hmac=ebb5be48ccf8ce9f363e45d04813c18f" alt=""></div>
+        <div id="cross_img"><img src="https://th.bing.com/th/id/R.30bace511841eb71e9f7c683c49aaf8b?rik=GYluK%2b8U5bSMZg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_5332.png&ehk=W1eOHRnQJ9vwFlACNT2DCFPckuEITF0G%2bxttWZoNoUA%3d&risl=&pid=ImgRaw&r=0" alt=""></div>
       
           <div id="signup_box" class="box">
               <h1>Create Account</h1>
@@ -116,15 +116,18 @@
     <div id="cart">
         <div id="offer">
             <p>Get the offer</p>
-            <p>• Flat 200 Off on 1999 & above, code- MAX200</p>
-            <p>• Flat 100 Off on 999 & above orders, code- NEW100 (First purchase only)</p>
+            <p>• Flat 500 Off on 1999 & above, code- MAX500</p>
+            <p>• Flat 200 Off on 999 & above orders, code- NEW200 (First purchase only)</p>
             <br>
             <hr>
-            <br>
+
         </div>
-        <img src="https://i1.lmsin.net/website_images/in/logos/logo-max.svg" alt="">
-        <br>
-        <br>
+        <div id="max">
+            <img style="width: 100px;" src="https://i1.lmsin.net/website_images/in/logos/logo-max.svg" alt="">
+            <h1 id="totalItems"></h1>
+        </div>
+
+     
         <hr>
 
             <div id="container"></div>
@@ -142,16 +145,19 @@
                 <hr>
                 <h2>TOTAL</h2>
                 <h2>₹ 0</h2>
+                <h2>Discounted Price ₹0</h2>
+                
             </div>
             <button>Proceed to Checkout</button>
             <div id="promo">
                 <img src="https://i1.lmsin.net/website_images/common/images/basket/ico-gift.png" alt="">
                 Got a Promo/Voucher Code?</div>
             <div id="p2">
-                <input type="text" placeholder="Enter Promo Code">
-                <button>Apply</button>
+                <input id="code" type="text" placeholder="Enter Promo Code">
+                <button id="apply">Apply</button>
                 <button>Cancel</button>
             </div> 
+           
         </div>
         </div>
     </div>

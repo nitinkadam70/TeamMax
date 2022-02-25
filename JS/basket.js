@@ -4,6 +4,7 @@ console.log(cart);
 displayData(cart);
 
 
+
 function displayData(cart){
 
     document.querySelector("#container").innerHTML="";
@@ -58,8 +59,8 @@ function showTotal(){
     var total = cart.reduce(function(acc,elem){
         return acc + (elem.price*elem.qty);
     },0) 
-    
     document.querySelector("h2+h2").innerText="₹ "+total;
+    discountedPrice(total);
 }
 
 showTotal();
@@ -87,6 +88,8 @@ function decreaseQty(elem,index){
                 break;
             }
         }
+        var totalItems = document.getElementById("totalItems");
+        totalItems.innerText="Total Items👉" + cart.length;
     }
     console.log(cart)
 
@@ -96,10 +99,27 @@ function decreaseQty(elem,index){
     showTotal();
 }
 
-// var totalItems = document.getElementById("totalItems");
-// totalItems.innerText="Total Items👉" + cart.length;
+var totalItems = document.getElementById("totalItems");
+totalItems.innerText="Total Items👉" + cart.length;
 
 
+function discountedPrice(total){
 
+    document.getElementById("apply").addEventListener("click", function(){
+    
+        var promoCode = document.getElementById("code").value;
+
+        if(Number(total)>=1999 && promoCode=="MAX500"){
+            document.querySelector("h2+h2+h2").innerText="Discounted Price ₹ "+Number(total-500);
+            alert("Congratulations you are elidible for 500 discount");
+  
+        }
+        else if(Number(total)>=999 && promoCode=="NEW200"){
+            document.querySelector("h2+h2+h2").innerText="Discounted Price ₹ "+Number(total-200);
+            alert("Congratulations you are elidible for 200 discount");
+        }
+    })
+    displayData(cart);
+}
 
 
