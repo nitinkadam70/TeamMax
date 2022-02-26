@@ -1,5 +1,6 @@
 .navbar {
-            background-color: snow
+            background-color: white;
+            margin-top: 2.5%;
         }
         .navbar ul {
             overflow: auto;
