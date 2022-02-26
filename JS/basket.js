@@ -1,5 +1,5 @@
 var cart = JSON.parse(localStorage.getItem("basket"));
-console.log(cart);
+//console.log(cart);
 
 displayData(cart);
 
@@ -56,10 +56,13 @@ function displayData(cart){
 }
 
 function showTotal(){
-    var total = cart.reduce(function(acc,elem){
-        return acc + (elem.price*elem.qty);
-    },0) 
+    var  total = cart.reduce(function(acc,item){
+        let s = Number(item.price)*Number(item.qty)
+        
+        return acc+s;
+     },0)
     document.querySelector("h2+h2").innerText="₹ "+total;
+    console.log(total)
     discountedPrice(total);
 }
 
@@ -103,21 +106,28 @@ var totalItems = document.getElementById("totalItems");
 totalItems.innerText="Total Items👉" + cart.length;
 
 
+let count = 0;
+
+
 function discountedPrice(total){
 
     document.getElementById("apply").addEventListener("click", function(){
-    
-        var promoCode = document.getElementById("code").value;
-
-        if(Number(total)>=1999 && promoCode=="MAX500"){
-            document.querySelector("h2+h2+h2").innerText="Discounted Price ₹ "+Number(total-500);
-            alert("Congratulations you are elidible for 500 discount");
-  
-        }
-        else if(Number(total)>=999 && promoCode=="NEW200"){
-            document.querySelector("h2+h2+h2").innerText="Discounted Price ₹ "+Number(total-200);
-            alert("Congratulations you are elidible for 200 discount");
-        }
+    let promo_code = document.getElementById("code").value 
+    if(count >0){
+        alert("this code can be used only ones");
+    }
+    else if(promo_code == "MAX500"){
+        document.getElementById("dis_price").innerText = "discounted price:"+ (total-500);
+        total = total-500;
+    }
+      else if(promo_code == "NEW200"){
+        document.getElementById("dis_price").innerText = "discounted price:"+ (total-200);
+        total-= 200;
+      }
+      else{
+          alert("invalid promocode");
+      }
+      count++;
     })
     displayData(cart);
 }
