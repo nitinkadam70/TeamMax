@@ -66,7 +66,7 @@ color: white;
     display: flex;
 }    
 #search{
-    width: 448px;
+    width: 15vw;
     border: 1px solid #ECEDEB;
     height: 40px;
     display: flex;
@@ -79,7 +79,7 @@ color: white;
  
 }
 #search>div>input{
-    width: 416px;
+    width: 20vw;
     height: 30px;
     padding:0px 7px 0px 14px;
     background-color: #ecedeb;
