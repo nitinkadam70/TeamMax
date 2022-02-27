@@ -32,3 +32,9 @@ function showItem() {
 }
 
 showItem(); 
+
+
+let must_have = document.querySelector("#must_have"); 
+must_have.addEventListener("click", function(){
+    window.location.href = "products_page.html"; 
+}); 
