@@ -117,11 +117,11 @@ function discountedPrice(total){
         alert("this code can be used only ones");
     }
     else if(promo_code == "MAX500"){
-        document.getElementById("dis_price").innerText = "discounted price:"+ (total-500);
+        document.getElementById("dis_price").innerText = "Discounted Price ₹ "+ (total-500);
         total = total-500;
     }
       else if(promo_code == "NEW200"){
-        document.getElementById("dis_price").innerText = "discounted price:"+ (total-200);
+        document.getElementById("dis_price").innerText = "Discounted Price ₹ "+ (total-200);
         total-= 200;
       }
       else{

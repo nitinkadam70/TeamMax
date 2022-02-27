@@ -1,15 +1,15 @@
-.navbar {
+.navbar_button {
             background-color: snow
         }
-        .navbar ul {
+        .navbar_button ul {
             overflow: auto;
         }
-        .navbar li {
+        .navbar_button li {
             float: left;
             list-style: none;
             margin: 13px 20px;
         }
-        .navbar li a{
+        .navbar_button li a{
             padding: 3px 3px;
             color: black;
         } 
@@ -161,5 +161,17 @@
         margin: 10px;
         text-align: center;
         margin-top: 185px;  
-      }
+      } 
+      #footer_parent {
+          width: 75%; 
+          margin: auto; 
+          margin-top: 100px; 
+      } 
+      #gift {
+          width: 80%;  
+          height: 300px; 
+          margin: auto; 
+          border: 1px solid red; 
+          margin-top: 100px;  
+      }  
       
