@@ -113,7 +113,7 @@ function discountedPrice(total){
 
     document.getElementById("apply").addEventListener("click", function(){
     let promo_code = document.getElementById("code").value 
-    if(count >0){
+    if(total <1000){
         alert("this code can be used only ones");
     }
     else if(promo_code == "MAX500"){
