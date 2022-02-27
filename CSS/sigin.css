@@ -6,7 +6,11 @@
   display: none;
   box-shadow: inset;
   box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
- 
+<<<<<<< Updated upstream
+  margin-top: 5%;
+=======
+  border-radius: 10px;
+>>>>>>> Stashed changes
   
   
  

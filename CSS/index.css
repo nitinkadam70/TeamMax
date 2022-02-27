@@ -64,14 +64,14 @@ color: white;
 #Navbar2>div:first-child{
     width: 65%;
     display: flex;
+
 }    
 #search{
-    width: 448px;
+    width: 350px;
     border: 1px solid #ECEDEB;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
     border-radius: 2px;
     background-color: #ecedeb;
     padding:0px 7px 0px 14px;
@@ -79,7 +79,7 @@ color: white;
  
 }
 #search>div>input{
-    width: 416px;
+    width: 300px;
     height: 30px;
     padding:0px 7px 0px 14px;
     background-color: #ecedeb;

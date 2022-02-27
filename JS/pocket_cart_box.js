@@ -54,7 +54,10 @@ function show_data(items){
 let total = cart_arr.reduce(function(acc,item){
            return acc+item.price;
 },0)
-  console.log(total)
+  
+
+console.log(total)
+
 
 
 
@@ -114,4 +117,4 @@ body.addEventListener("click",function(){
     cart.style.display = "none";
 })
 
-console.log(cart_arr)
+//console.log(cart_arr)
