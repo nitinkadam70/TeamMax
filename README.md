@@ -38,5 +38,16 @@ Designed and developed user-friendly websites
 
 <hr/>
 
-A collaborative project built by a team of 5 executed in 4 days.
+A collaborative project built by a team of 4 executed in 4 days.
+
+<h2>Team Members <h2/>
+<ul>
+  
+<li><h4>Nitin Kadam</h4></li>
+  <li><h4>Yaman Singh</h4></li>
+   <li><h4>fahim</h4></li>
+  <li><h4>prabhash Kumar</h4></li>
+ 
+  </ul>  
+
 
