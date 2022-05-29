@@ -15,8 +15,7 @@ Link: https://gracious-brattain-5ae9f0.netlify.app/
 <img src="https://i.imgur.com/GxiEQ4x.png"/>
 
 <h2>Cart Page</h2>
-<img src="[https://i.imgur.com/fYxp95R.png](https://i.imgur.com/JrrH23I.png](https://i.imgur.com/JrrH23I.png
-)"/>
+<img src="https://i.imgur.com/JrrH23I.png"/>
 
 
 
