@@ -40,7 +40,14 @@ Designed and developed user-friendly websites
 
 A collaborative project built by a team of 4 executed in 4 days.
 
-<h2>Team Members <h2/>
+</hr>
+Built with
+* HTML
+* CSS
+* Javascript 
+* DOM
+</hr>
+<h2>Creators <h2/>
 <ul>
   
 <li><h4>Nitin Kadam</h4></li>
